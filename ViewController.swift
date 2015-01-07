@@ -58,6 +58,9 @@ class ViewController: UIViewController {
 
         //カスタマイズViewを追加
         self.view.addSubview(myView)
+        
+        // メンバ変数に代入する
+        self.timerView = myView
     }
     
     override func didReceiveMemoryWarning() {
