@@ -54,8 +54,8 @@ class ViewController: UIViewController {
         var frame :CGRect = CGRect(origin: self.view.bounds.origin, size: self.view.bounds.size)
         
         //カスタマイズViewを生成
-        let myView = timerView(frame: frame) // '(frame: @lvalue CGRect) -> $T3' is not identical to 'TimerView'
-        
+        let myView = TimerView(frame: frame)
+
         //カスタマイズViewを追加
         self.view.addSubview(myView)
     }
